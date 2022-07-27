@@ -10,7 +10,7 @@ body {
 	background: var(--main-background-color);
 	font-size:22px;
 	line-height: 32px;
-	color: #99C4C8;
+	color: var(--main-background-color);
 	word-wrap:break-word !important;
 	font-family: 'Open Sans', sans-serif;
 	}
