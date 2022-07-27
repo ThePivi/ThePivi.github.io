@@ -2,9 +2,12 @@
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+:root {
+	--main-background-color:#68A7AD;
+}
 
 body {
-	background: #68A7AD;
+	background: var(--main-background-color);
 	font-size:22px;
 	line-height: 32px;
 	color: #99C4C8;
@@ -101,6 +104,6 @@ nav ul ul ul li {
 
 
 /* Change this in order to change the Dropdown symbol */
-li > a:after { content:  ' ×'; }
+li > a:after { content:  ' ˇ×'; }
 li > a:hover:after { content:  ' ¤'; }
 li > a:only-child:after { content: ''; }
