@@ -44,7 +44,7 @@ p {
 
 nav {
 	margin: 50px 0;
-	background-color: brown;
+	background-color: #E5CB9F;
 }
 
 nav ul {
@@ -56,13 +56,13 @@ nav ul {
 
 nav ul li {
 	display:inline-block;
-	background-color: brown;
+	background-color: #E5CB9F;
 	}
 
 nav a {
 	display:block;
 	padding:0 11px;
-	color:#FFF;
+	color:#EEE4AB;
 	font-size:20px;
 	line-height: 60px;
 	text-decoration:none;
