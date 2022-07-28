@@ -51,7 +51,7 @@ p {
 
 nav {
 	margin: 50px 0;
-	background-color: var(--menu-text-color);
+	background-color: var(--menu-background-color);
 }
 
 nav ul {
