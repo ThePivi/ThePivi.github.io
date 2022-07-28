@@ -2,8 +2,12 @@
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
 :root {
 	--main-background-color:#68A7AD;
+	--main-text-color:#68A7AD;
+	--menu-background-color:#68A7AD;
+	--menu-text-color:#68A7AD;
 }
 
 body {
@@ -13,12 +17,12 @@ body {
 	color: var(--main-background-color);
 	word-wrap:break-word !important;
 	font-family: 'Open Sans', sans-serif;
-	}
+}
 
 h1 {
 	font-size: 60px;
 	text-align: center;
-	color: cyan;
+	color: teal;
 	margin-top: 100px;
 	font-family: 'Bree Serif', 'serif';
 }
