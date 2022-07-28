@@ -4,17 +4,17 @@
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
 :root {
-	--main-background-color:#68A7AD;
-	--main-text-color:#68A7AD;
-	--menu-background-color:#68A7AD;
-	--menu-text-color:#68A7AD;
+	--main-background-color:#008080;
+	--main-text-color:#80C0C0;
+	--menu-background-color:#198D8D;
+	--menu-text-color:#99CCCC;
 }
 
 body {
 	background: var(--main-background-color);
 	font-size:22px;
 	line-height: 32px;
-	color: var(--main-background-color);
+	color: var(--main-text-color);
 	word-wrap:break-word !important;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -51,7 +51,7 @@ p {
 
 nav {
 	margin: 50px 0;
-	background-color: #E5CB9F;
+	background-color: var(--menu-text-color);
 }
 
 nav ul {
@@ -63,20 +63,20 @@ nav ul {
 
 nav ul li {
 	display:inline-block;
-	background-color: #E5CB9F;
+	background-color: var(--menu-background-color);
 	}
 
 nav a {
 	display:block;
 	padding:0 11px;
-	color:#EEE4AB;
+	color: var(--menu-text-color);
 	font-size:20px;
 	line-height: 60px;
 	text-decoration:none;
 }
 
 nav a:hover {
-	background-color: #000000;
+	background-color: var(--menu-background-color);
 }
 
 /* Hide Dropdowns by Default */
