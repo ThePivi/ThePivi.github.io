@@ -4,10 +4,10 @@
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
 :root {
-	--main-background-color:#008080;
-	--main-text-color:#80C0C0;
-	--menu-background-color:#198D8D;
-	--menu-text-color:#99CCCC;
+	--main-background-color:#1F0322;
+	--main-text-color:#DA4167;
+	--menu-background-color:#8A1C7C;
+	--menu-text-color:#F0BCD4;
 }
 
 body {
