@@ -111,3 +111,8 @@ nav ul ul ul li {
 li > a:after { content:  ' ×'; }
 li > a:hover:after { content:  ' ¤'; }
 li > a:only-child:after { content: ''; }
+
+.frameFull {
+	height: 100%;
+	width: 100%;
+}
