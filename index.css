@@ -119,8 +119,32 @@ li > a:only-child:after { content: ''; }
 
 .content {
 	position: absolute;
-	top: 15%;
-	left: 10%;
-	right: 15%;
-	bottom: 10%;
+	top: 12%;
+	left: 8%;
+	right: 12%;
+	bottom: 13%;
+}
+
+.lcd {
+	position: absolute;
+	top: 2%;
+	left: 15%;
+	right: 54%;
+	bottom: 91%;
+}
+
+.socket {
+	position: absolute;
+  top: 5.8%;
+  left: 4.6%;
+  right: 90.9%;
+  bottom: 88%;
+}
+
+.chip {
+	position: absolute;
+	top: 10.8%;
+  left: 88.6%;
+  right: 6.9%;
+  bottom: 83%;
 }
