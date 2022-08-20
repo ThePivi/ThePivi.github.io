@@ -127,10 +127,10 @@ li > a:only-child:after { content: ''; }
 
 .lcd {
 	position: absolute;
-	top: 2%;
-	left: 15%;
-	right: 54%;
-	bottom: 91%;
+	top: 2.6%;
+  left: 15.7%;
+  right: 55%;
+  bottom: 91.6%;
 }
 
 .socket {
@@ -139,6 +139,14 @@ li > a:only-child:after { content: ''; }
   left: 4.6%;
   right: 90.9%;
   bottom: 88%;
+}
+
+.chip_holder {
+	position: absolute;
+	top: 7.3%;
+  left: 85.8%;
+  right: 4.5%;
+  bottom: 15.6%;
 }
 
 .chip {
