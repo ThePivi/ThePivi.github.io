@@ -116,3 +116,24 @@ li > a:only-child:after { content: ''; }
 	height: 100%;
 	width: 100%;
 }
+
+.content {
+	position: relative;
+
+}
+
+#div1, #div2, #div3{
+  float: left;
+  /*width: 100px;
+  height: 35px;
+  margin: 10px;
+  padding: 10px;*/
+  border: 3px solid cyan;
+}
+
+div div {
+	width: 100px;
+  height: 35px;
+  margin: 10px;
+  padding: 10px;
+}
