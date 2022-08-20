@@ -119,21 +119,8 @@ li > a:only-child:after { content: ''; }
 
 .content {
 	position: relative;
-
-}
-
-#div1, #div2, #div3{
-  float: left;
-  /*width: 100px;
-  height: 35px;
-  margin: 10px;
-  padding: 10px;*/
-  border: 3px solid cyan;
-}
-
-div div {
-	width: 100px;
-  height: 35px;
-  margin: 10px;
-  padding: 10px;
+	top: 15%;
+	left: 10%;
+	right: 15%;
+	bottom: 10%;
 }
