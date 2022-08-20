@@ -120,39 +120,39 @@ li > a:only-child:after { content: ''; }
 .content {
 	position: absolute;
 	top: 12%;
-	left: 8%;
-	right: 12%;
-	bottom: 13%;
+	left: 10%;
+	right: 15%;
+	bottom: 16%;
 }
 
 .lcd {
 	position: absolute;
 	top: 2.6%;
-  left: 15.7%;
-  right: 55%;
-  bottom: 91.6%;
+	left: 15.9%;
+	right: 55.6%;
+	bottom: 91.7%;
 }
 
 .socket {
 	position: absolute;
-  top: 5.8%;
-  left: 4.6%;
-  right: 90.9%;
-  bottom: 88%;
+	top: 5.8%;
+	left: 4.65%;
+	right: 91.1%;
+	bottom: 88.1%;
 }
 
 .chip_holder {
 	position: absolute;
-	top: 7.3%;
-  left: 85.8%;
-  right: 4.5%;
-  bottom: 15.6%;
+	top: 7.2%;
+	left: 85.9%;
+	right: 4.7%;
+	bottom: 16.9%;
 }
 
 .chip {
 	position: absolute;
-	top: 10.8%;
-  left: 88.6%;
+	top: 2.8%;
+  left: 6.6%;
   right: 6.9%;
   bottom: 83%;
 }
