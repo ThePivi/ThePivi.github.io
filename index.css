@@ -149,7 +149,7 @@ li > a:only-child:after { content: ''; }
 	bottom: 16.9%;
 }
 
-.chip {
+.chip1 {
 	position: absolute;
 	top: 2.8%;
   left: 6.6%;
