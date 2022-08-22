@@ -17,6 +17,14 @@
         ev.preventDefault();
         var data = ev.dataTransfer.getData("text");
         ev.target.appendChild(document.getElementById(data));
+        load_content (home);
+      }
+
+      function load_content(page_name) {
+        document.getElementById("content").innerHTML='
+            <object type="text/html"
+                    data="assets\subpages\{{page_name}}.html"
+            ></object>';
       }
     </script>
   </head>
