@@ -17,12 +17,15 @@
         ev.preventDefault();
         var data = ev.dataTransfer.getData("text");
         ev.target.appendChild(document.getElementById(data));
-        load_content (home);
+        if (ev.dataTransfer.getData("text") === "chip_controller1") {
+          let lcd_text_dom = document.getElementById("lcd_text");
+          lcd_text_dom.innerHTML = '# ABOUT_ME';
+          fetch('assets/subpages/home.html')
+            .then(response=> response.text())
+            .then(text=> document.getElementById('content').innerHTML = text);
+        }
       }
 
-      function load_content(page_name) {
-        document.getElementById("content").innerHTML='<object type="text/html"data="assets\subpages\{{page_name}}.html"></object>';
-      }
     </script>
   </head>
   <body>
@@ -30,6 +33,8 @@
       <img src="assets\pictures\MonitorBottom.png" width="100%" height="100%">
       <div class="lcd">
         <img src="assets\pictures\FullMask.png" width="100%" height="100%">
+        <p class="lcd_text" id="lcd_text">
+        </p>
       </div>
       <div class="socket" ondrop="drop(event)" ondragover="allowDrop(event)">
         <!--img src="assets\pictures\FullMask.png" width="100%" height="100%"-->
@@ -37,14 +42,18 @@
       <div class="chip_holder">
         <!--img src="assets\pictures\FullMask.png" width="100%" height="100%"-->
         <div class="chip1">
-          <img  src="assets\pictures\Chip_Controller.png"
-                id="chip_controller1"
-                draggable="true"
-                ondragstart="drag(event)"
-                width="70%"
-                height="70%">
+          <div class="chip">
+            <img  src="assets\pictures\Chip_Controller.png"
+                  id="chip_controller1"
+                  draggable="true"
+                  ondragstart="drag(event)"
+                  width="100%"
+                  height="100%">
+          </div>
           <div class="chip_label">
-            valami van ebben
+
+              # ABOUT_ME
+
           </div>
         </div>
       </div>

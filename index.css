@@ -6,8 +6,9 @@
 :root {
 	--main-background-color:#1F0322;
 	--main-text-color:#DA4167;
-	--menu-background-color:#8A1C7C;
-	--menu-text-color:#F0BCD4;
+	--menu-background-color:#cdc5a8;
+	--menu-text-color:#3482d5;
+  --lcd-text-color:#ffbb00;
 }
 
 body {
@@ -133,6 +134,14 @@ li > a:only-child:after { content: ''; }
 	bottom: 91.7%;
 }
 
+.lcd_text {
+	position: absolute;
+  color: var(--lcd-text-color);
+  font-size: 100%;
+  top: -30%;
+  left: 5%;
+}
+
 .socket {
 	position: absolute;
 	top: 5.8%;
@@ -155,4 +164,24 @@ li > a:only-child:after { content: ''; }
   left: 6.6%;
   right: 6.9%;
   bottom: 83%;
+}
+
+.chip {
+  position: absolute;
+	top: 0%;
+  left: 20%;
+  right: 20%;
+  bottom: 40%;
+}
+
+.chip_label {
+  background: var(--menu-background-color);
+  color: var(--menu-text-color);
+  text-align: center;
+  position: absolute;
+  font-size: 50%;
+  top: 65%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
 }
